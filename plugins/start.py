@@ -9,6 +9,6 @@ async def start(client, message):
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/adarshgoelo5")]
     ])
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n    /help for More info                          use this bot and get the video in 2-5 minutes depending on the size     ({message.from_user.first_name} the file should be under 2GB because telegram desn't support bigger files  can't help)                                      made by @adarshgoelo5"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n☺️    /help for More info                          use this bot and get the video in 2-5 minutes depending on the size     (⭕{message.from_user.first_name}⭕ the file should be under 2GB because telegram desn't support bigger files  can't help)                                      made by @adarshgoelo5"
     await message.reply_text(welcomed, reply_markup=joinButton) 
     raise StopPropagation
